@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvorguesas UwU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four_columns">
+                    <h1><img src="img/logo.png" alt="Anvorguesa"></h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="La_Carta">
+                            <div id="carrito">
+                                <p class="vacio">Carrito Vacío</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platillos</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo1.png" width="100"">
+                                            </td>
+                                            <td>Anvorguesa con Helado</td>
+                                            <td>S/24.90</td>
+                                            <td><a href="#" class="borrar-platillo"></a>X</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo3.png" width="100"">
+                                            </td>
+                                            <td>Solo Anvorguesa</td>
+                                            <td>S/19.90</td>
+                                            <td><a href="#" class="borrar-platillo"></a>X</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                            <h2>Come una anvorguesaaa</h2>
+                            <p>Todas las anvorguesas a precios cómodos</p>
+                            <form>
+                                <input class="u-full-width" type="text" placeholder="¿Qué te gustaría comer?" id="buscador">
+                                <input type="submit" class="submit-buscador">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="barra">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>¡100 Platillos diferentes!<br>
+                        Explora los nuevos platillos</p>
+                    </div>
+                    <div class="four columns icono icono1">
+                        <p>¡Chef experto!<br>
+                        Prueba las nuevas combinaciones</p>
+                    </div>
+                    <div class="four columns icono icono1">
+                        <p>¡Bebidas a la orden!<br>
+                        Prueba tu bebida favorita</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lista-platillos" class="container">
+            <h1 class="encabezado">Pedidos en linea disponibles</h1>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo1.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Solo Anvorguesa</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo2.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Anvorguesa con papas</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo3.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Anvorguesa con helado</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo5.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Solo Anvorguesa</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo1.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Anvorguesa con papas</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo2.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Anvorguesa con helado</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo5.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Solo Anvorguesa</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo1.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Anvorguesa con papas</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/platillo2.jpg" class="image-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>Anvorguesa con helado</h4>
+                            <p>Con bebida</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">S/39.90 <span class="u-pull-right">S/19.90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main> 
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <nav class="menu">
+                            <a class="enlace" href="#">Pedidos a Domicilio</a>
+                            <a class="enlace" href="#">Pedidos en linea</a>
+                            <a class="enlace" href="#">Pedidos por teléfono</a>
+                            <a class="enlace" href="#">Menú</a>
+                            <a class="enlace" href="#">Bebidas</a>
+                        </nav>
+                    </div>
+                    <div class="four columns">
+                        <nav class="menu">
+                            <a class="enlace" href="#">Restaurante</a>
+                            <a class="enlace" href="#">Ubicación</a>
+                            <a class="enlace" href="#">Teléfono</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
